@@ -49,6 +49,7 @@ h4{
     overflow: auto;
 }
 #p1::first-letter{
+    color: brown;
     font-size: 30px;
 }
 #tit:hover{
