@@ -14,7 +14,7 @@
 .book{
     border: 3px solid black;
     border-radius: 4px;
-    margin: 30px auto;
+    margin: 30px auto; 
     width: 700px;
     height: 700px;
     overflow: auto;

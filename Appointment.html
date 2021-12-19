@@ -34,95 +34,86 @@
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
                   <a class="nav-link  navbar-dark bg-dark" href="Appointment.html">Book an Appointment</a>
-                  <a class="nav-link" href="https://www.cowin.gov.in/" target="_blank">Covid-19 Vaccination</a>
+                  <a class="nav-link" href="https://www.cowin.gov.in/">Covid-19 Vaccination</a>
                 </div>
               </div>
             </div>
         </nav>
-
-        <form class="book" class="needs-validation" novalidate>
-            <div class="input-group">
-                <span class="input-group-text">First and Last name</span>
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
-            </div>
-            <div class="form-floating mb-3" id="bum">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                <div class="invalid-feedback">
-                  Please enter a valid email address for shipping updates.
+        <div class="row g-5">
+          <div class="col-md-7 col-lg-8">
+            <form class="book" class="needs-validation" novalidate>
+                <div class="input-group">
+                    <span class="input-group-text">First and Last name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
                 </div>
-            </div>
-            <div class="col-12">
-              <label for="address" class="form-label">Address Line 1</label>
-              <input type="text" class="form-control" id="address" placeholder="Flat 3, D Wing, Hide Park" required>
-              <div class="invalid-feedback">
-                Please enter a proper address.
-              </div>
-            </div>
-            <div class="col-12">
-              <label for="address2" class="form-label">Address Line 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Ghodbander Road, Thane, Mumbai">
-            </div>
-            <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
-                <option value="">Choose...</option>
-                <option>India</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid country.
-              </div>
-            </div>
+                <div class="form-floating mb-3" id="bum">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                </div>
 
-            <div class="col-md-4">
-              <label for="state" class="form-label">State/UT</label>
-              <select class="form-select" id="state" required>
-                <option value="">Choose...</option>
-                <option>Andaman&Nicobar</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chandigarh</option><option>Chattisgarh</option>
-                <option>Daman&Diu&Dadra&Nagar Haveli</option><option>Delhi</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option>
-                <option>Jammu&Kashmir</option><option>Jharkhand</option><option>Lakshadweep</option><option>Karnataka</option><option>Kerala</option><option>Ladakh</option>
-                <option>Madhya Pradesh</option><option>Maharahtra</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option>
-                <option>Pondicherry</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option>
-                <option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option>
-              </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label for="address" class="form-label">Address Line 1</label>
+                    <input type="text" class="form-control" id="address" placeholder="Flat 3, D Wing, Hide Park" required>
+                    <div class="invalid-feedback">
+                      Please enter a proper address.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label for="address2" class="form-label">Address Line 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Ghodbander Road, Thane, Mumbai">
+                  </div>
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>India</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
 
-            <input type="submit" >
-        </form>
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State/UT</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Andaman&Nicobar</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chandigarh</option><option>Chattisgarh</option>
+                      <option>Daman&Diu&Dadra&Nagar Haveli</option><option>Delhi</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option>
+                      <option>Jammu&Kashmir</option><option>Jharkhand</option><option>Lakshadweep</option><option>Karnataka</option><option>Kerala</option><option>Ladakh</option>
+                      <option>Madhya Pradesh</option><option>Maharahtra</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option>
+                      <option>Pondicherry</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option>
+                      <option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">City</label>
+                    <input type="text" class="form-control" id="zip" placeholder="Mumbai" required>
+                    <div class="invalid-feedback">
+                      City Name required.
+                    </div>
+                  </div>
+                </div>
+              
+                <input type="submit" >
+            </form>
+          </div>
+        </div>
 
         <div class="container">
             <main>
               <div class="row g-5">
                 <div class="col-md-7 col-lg-8">
                   <form class="needs-validation" novalidate>
-                    <div class="row g-3">
-                      <div class="col-md-3">
-                        <label for="zip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="zip" placeholder="" required>
-                        <div class="invalid-feedback">
-                          Zip code required.
-                        </div>
-                      </div>
-                    </div>
-          
-                    <hr class="my-4">
-          
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="same-address">
-                      <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-                    </div>
-          
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="save-info">
-                      <label class="form-check-label" for="save-info">Save this information for next time</label>
-                    </div>
-          
-                    <hr class="my-4">
           
                     <h4 class="mb-3">Payment</h4>
           
