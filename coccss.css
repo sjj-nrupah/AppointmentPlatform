@@ -1,7 +1,9 @@
+.cocquerybody,
 body{
     background-color: #232323;
     overflow: auto;
 }
+/* Please remove body from the above set of properties while merging the files. I had set it only to have uniformity while making the page.*/
 .cocqueryhead{
     font-family: 'Montserrat', sans-serif !important;
     color: #ffffff !important;
@@ -20,9 +22,11 @@ body{
     font-family: 'Montserrat', sans-serif !important;
     font-style: normal !important;
 }
-/*.cocqueryinput:placeholder-shown{
-    box-shadow: none !important;
-}*/
+.cocqueryinput:placeholder-shown{
+    /*box-shadow: none !important;*/
+    font-style: normal;
+    font-weight: normal;
+}
 .cocquerybutton{
     font-weight: bold !important;
     border-radius: 6px !important;
@@ -42,12 +46,16 @@ body{
 .cocquerybuttongap{
     margin-top: 1px;
 }
+.cocquerybuttonmiddle{
+    display: flex !important;
+    justify-content: center !important;
+}
 @media only screen and (min-width: 768px) {
     .cocqueryhead{
         font-size: 50px; 
     }
     .cocqueryform{
-        width: 60%;
+        width: 50%;
     }
 }
 @media only screen and (min-width: 600px) {
@@ -55,7 +63,7 @@ body{
         font-size: 30px; 
     }
     .cocqueryform{
-        width: 60%;
+        width: 50%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -64,7 +72,7 @@ body{
     }
     .cocqueryform{
         margin: 5px;
-        width: 100%;
+        width: 80%;
     }
 }
 @media only screen and (max-width: 350px) {
@@ -73,6 +81,6 @@ body{
     }
     .cocqueryform{
         margin: 5px;
-        width: 100%;
+        width: 80%;
     }
 }
