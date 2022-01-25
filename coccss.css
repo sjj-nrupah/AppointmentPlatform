@@ -1,7 +1,7 @@
 .cocquerybody,
 body{
     background-color: #232323;
-    overflow: auto;
+    overflow-x: hidden;
 }
 /* Please remove body from the above set of properties while merging the files. I had set it only to have uniformity while making the page.*/
 .cocqueryhead{
