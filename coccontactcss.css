@@ -1,0 +1,77 @@
+/*Remove body while merging*/
+            body{
+                background-color: #232323;
+            }
+            .coccontactmain{
+                background-color: #232323;
+            }
+            .coccontactheadingmainblock{
+                display: flex;
+                flex-direction: column;
+                /*justify-content: center;*/
+                align-items: center;
+            }
+            .coccontactusheading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*Change width and height of box with media queries*/
+                width: 440px;
+                height: 85px;
+                background-color: #76BFDA;
+                border-radius: 16px;
+                text-align: center;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            #coccontactheadingtext{
+                color : #FFFFFF;
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: bold;
+                font-style: normal;
+                font-family: 'Montserrat', sans-serif;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            .coccontactblock{
+                margin-top: 15px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                position: relative;
+                /*CHange felx dirn with media*/
+                /*justify-content: space-around;*/
+            }
+            .coccontactinnerblock{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .coccontactimg{
+                width: 450px;
+                height: 450px;
+            }
+            .coccontactdescription{
+                display: flex;
+                flex-direction: column;
+                justify-content : center;
+                align-items: center;
+                background-color: #76BFDA;
+                border-radius: 12px;
+                padding: 5px;
+                height: 150px;
+                text-align: center;
+            }
+            .cocmar{
+                margin-right: 25px;
+            }
+            .cocseparationline{
+                width: 100%;
+                height: 12px;
+                background-color: #76BFDA;
+                margin-top: 50px;
+            }
