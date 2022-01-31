@@ -12,16 +12,15 @@
     margin-bottom: 40px;
 }
 .cocqueryformcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .cocqueryform{
     font-family: 'Montserrat', sans-serif !important;
     font-style: normal !important;
 }
 .cocqueryinput:placeholder-shown{
-    /*box-shadow: none !important;*/
     font-style: normal;
     font-weight: normal;
 }
@@ -42,11 +41,12 @@
     color: #000000 !important;
 }
 .cocquerybuttongap{
-    margin-top: 1px;
+    margin-top: 1px !important;
 }
 .cocquerybuttonmiddle{
     display: flex !important;
     justify-content: center !important;
+    text-align: center !important;
 }
 @media only screen and (min-width: 768px) {
     .cocqueryhead{
